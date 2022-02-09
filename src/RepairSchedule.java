@@ -46,7 +46,7 @@ public class RepairSchedule
             available.add(i);
         }
         for (int i = 0; i < schedule.size(); i++){
-            for (int j = 0; i < available.size(); i++){
+            for (int j = 0; j < available.size(); j++){
                 if (schedule.get(i).getMechanicNum() == available.get(j)){
                     available.remove(j);
                     break;
